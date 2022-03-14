@@ -1,14 +1,17 @@
 {
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6",
+    "nodemon": "^2.0.15",
+    "run": "^1.4.0",
+    "server": "^1.0.37"
   },
-  "name": "evaluation",
+  "name": "c2",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":"nodemon app.js"
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
